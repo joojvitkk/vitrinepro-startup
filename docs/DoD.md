@@ -33,3 +33,14 @@ O comportamento final foi validado pelo Product Owner.
 6. Deploy Local
 A aplicação roda localmente com um único comando ou instrução simples.
 Dependências estão documentadas.
+
+## Qualidade e Revisão (Extensão da DoD)
+
+Além dos critérios já existentes, a entrega só será considerada concluída quando:
+
+- [ ] Houver branch específica para a tarefa (feature/hotfix).
+- [ ] A implementação tiver passado por code review, seguindo o checklist em `docs/Processos-Qualidade-Revisao.md`.
+- [ ] A funcionalidade tiver sido testada manualmente e as evidências estiverem anexadas na Pull Request.
+- [ ] Não houver erros aparentes no console ou falhas graves nos fluxos principais.
+- [ ] A documentação mínima tiver sido atualizada (README, exemplos, textos da interface).
+
